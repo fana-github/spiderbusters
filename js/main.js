@@ -19,7 +19,6 @@ $(document).ready(function() {
   });
 
   /*Anchor Tags Sprungfunktion*/
-  alert("test");
   $("a[href^=#]").click(function(e){
       e.preventDefault();
       var href = $(this).attr('href').substring(1);
