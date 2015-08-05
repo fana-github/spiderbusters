@@ -1,0 +1,324 @@
+$grid-columns: 12
+$grid-maxwidth: 1200px
+$gutter: 20px
+
+$breakpoints: (phone: 0px, small: 720px, medium: 960px, large: 1200px)
+
+$width-small:   720px
+$width-medium:  960px
+$width-large:   1200px
+
+$phone: "only screen and (max-width: #{$width-small})"
+$small: "only screen and (min-width: #{$width-small}) and (max-width: #{$width-medium})"
+$medium: "only screen and (min-width: #{$width-medium}) and (max-width: #{$width-large})"
+$large: "only screen and (min-width: #{$width-large})"
+$phone-small: "only screen and (max-width: #{$width-medium})"
+$medium-large: "only screen and (min-width: #{$width-medium})"
+
+.row
+    margin: 0 auto
+    max-width: $grid-maxwidth
+    overflow: auto
+    padding: 0
+    width: 100%
+
+    .row,
+    &.inner
+        padding: 0 !important
+
+.align-right
+    text-align: right
+
+@mixin grid($namespace: "")
+    .#{$namespace}-0
+        width: 0
+        height: 0
+        overflow: hidden
+
+    @for $i from 1 through $grid-columns
+        .#{$namespace}-#{$i}
+            box-sizing: border-box
+            float: left
+            height: auto !important
+            min-height: 1px
+            overflow: auto !important
+            padding: 0 $gutter/2
+            width: percentage(($i / $grid-columns))
+
+@each $bpname, $bpwidth in $breakpoints
+    @media only screen and (min-width: #{$bpwidth})
+        @include grid($bpname)
+
+    
+.row img
+    width: 100%
+    height: auto
+ 
+*
+    box-sizing: border-box
+
+html
+    padding: 0
+    margin: 0
+  
+body
+    padding: 0
+    margin: 0 0 0 0
+    font-family: sans-serif
+    font-size: 100%
+    color: #333
+    line-height: 1.6
+    font-weight: 200
+
+h3
+    color: #999
+    font-weight: 400
+    width: 100%
+    border-bottom: 1px solid #d6d6d6
+
+/* Full Hero Image */
+/*.hero img */
+/*    width: 100% */
+/*    height: 100vh */
+ 
+
+/*****************************************************/  
+/* Spezifisches Navigation-Design für Screensize MEDIUM & LARGE */    
+/*****************************************************/    
+@media #{$medium-large}
+    $nav-height: 80px
+    $subnav-height: 130px
+
+    #logo
+        display: inline
+        position: absolute
+        padding-top: 10px
+        padding-left: 60px
+        height: 70px
+
+    #trigger
+        display: none
+
+    nav
+        position: absolute
+        top: 0
+        left: 0
+        height: $nav-height
+        width: 100%
+        color: #eee
+      
+        #bar
+            padding: 0
+            background: rgba(0, 0, 0, 0.8)
+            max-width: $width-large - $gutter
+            width: 100%
+            height: $nav-height
+            margin: 0 auto
+
+        a
+            text-decoration: none
+
+        ul
+            padding: 0
+            max-width: $width-large - $gutter
+            width: 100%
+            height: $nav-height
+            margin: 0 auto
+
+        li
+            display: inline-block
+            cursor: pointer
+            text-align: center
+
+
+        > ul
+            position: relative
+            top: -$nav-height
+
+            div
+                float: right
+                margin-right: 100px
+          
+            li
+                width: 120px
+                height: $nav-height
+                padding: 25px
+                &:hover
+                    background-color: rgba(255,0,0,1)
+                    color: #fff
+
+        > ul ul
+            display: none
+            position: absolute
+            left: 0
+            top: $nav-height
+            height: $subnav-height
+            background: rgba(255,255,255,0.6)
+
+
+        > ul ul li
+            vertical-align: top
+            display: inline-block
+            text-align: center
+            width: 200px
+            height: $subnav-height
+            padding: 10px 45px
+            
+            &:hover
+                background-color: rgba(255,0,0,1)
+                
+                a
+                    color: #fff
+
+            a
+                color: #333
+                display: block
+                font-size: 12px
+
+           
+
+/*****************************************************/  
+/* Spezifisches Design für Screensize PHONE & SMALL */    
+/*****************************************************/  
+            
+@media #{$phone-small}
+    $nav-height: 80px
+    $subnav-height: 130px
+    $nav-weight: 150px
+
+    #logo
+        display: inline
+        position: absolute
+        padding-top: 10px
+        padding-left: 5px
+        height: 60px
+  
+    .hero
+        margin-top: $nav-height
+
+    #trigger
+        position: inline
+        display: block
+        float: left
+        font-size: 30px
+        padding: 10px 10px
+        height: 100%
+
+    nav
+        position: absolute
+        top: 0
+        left: 0
+        height: $nav-height
+        width: 100%
+    
+        #bar
+            padding: 0
+            background: rgba(0, 0, 0, 0.8)
+            max-width: $width-large - $gutter
+            width: 100%
+            height: $nav-height
+            margin: 0 auto
+
+        a
+            color: #EEEEEE
+            text-decoration: none
+
+        ul
+            display: none
+            position: relative
+            margin: 0px
+            padding: 0
+            color: #fff
+            width: $nav-weight
+            float: left
+            height: auto
+            background: rgba(0,0,0,0.8)
+        li
+            display: inline-block
+            padding: 10px 30px
+            float: left
+            text-align: right
+            cursor: pointer  
+            height: 100%
+            width: 100%
+
+        > ul
+            position: relative
+            /*TODO*/
+
+            > div li
+                ul
+                    display: block
+
+        > ul ul
+            display: none
+            position: absolute
+            left: $nav-weight
+            top: 0
+            height: $subnav-height
+            line-height: 25px
+            background: rgba(255,255,255,0.6)
+
+
+        > ul ul li
+            display: inline-block
+            text-align: center
+            height: 45px
+
+            a
+                display: block
+                color: #666
+                font-size: 12px
+            
+            img
+                display: none
+            
+/*****************************************************/  
+/* Subpage Services */    
+/*****************************************************/ 
+
+.services table
+    tr
+        td:first-of-type
+            padding-left: 10px
+            padding-right: 20px
+            
+            &:hover
+                cursor: pointer
+                background-color: rgba(255,0,0,0.2)
+
+.services img
+    width: 100%
+    height: auto
+    border: 1px solid red
+  
+/**
+ * VH and VW units can cause issues on iOS devices: http://caniuse.com/#feat=viewport-units
+ * 
+ * To overcome this, create media queries that target the width, height, and orientation of iOS devices. 
+ * It isn't optimal, but there is really no other way to solve the problem. In this example, I am fixing 
+ * the height of element `.foo` —which is a full width and height cover image.
+ *
+ * iOS Resolution Quick Reference: http://www.iosres.com/
+ */
+
+/** 
+ * iPad with portrait orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait)
+    .hero img
+        height: auto
+
+/** 
+ * iPad with landscape orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape)
+    .hero img
+        height: auto
+/**
+ * iPhone 5
+ * You can also target devices with aspect ratio.
+ */
+@media screen and (device-aspect-ratio: 40/71)
+    .hero img
+        height: auto
