@@ -23,7 +23,7 @@ $(document).ready(function() {
       e.preventDefault();
       var href = $(this).attr('href').substring(1);
       $('html, body').animate({
-          scrollTop:$("a[name="+href+"]").offset().top
+          scrollTop:$("div[id="+href+"]").offset().top
       },'slow');
     
       //$('html,body').animate({ scrollTop: 500 }, 300);
