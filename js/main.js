@@ -18,6 +18,7 @@ $(window).resize(function() {
 
 /*Anchor Tags Sprungfunktion*/
 $(document).ready(function() {
+  alert("test");
 $("a[href^=#]").click(function(e){
         e.preventDefault();
     
