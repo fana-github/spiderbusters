@@ -38,12 +38,12 @@ $(document).ready(function() {
     /*Services: Img-Switch bei Click auf Table-Einträge*/
   $(".services-description table tr").click(function(e){
       e.preventDefault();
-
-      alert("."+this.className+".active");
-      alert(".services-img ."+this.className);
-      $("."+this.className+".active").hide(300);
-      
-      $(".services-img ."+this.className).show(300);
+      var element_to_hide = "."+this.className+".active";
+      var element_to_show = ".services-img."+this.className;
+      alert(element_to_hide);
+      alert(element_to_show);
+      $(element_to_hide).hide();
+      $(element_to_show).show();
   });
   
 });
