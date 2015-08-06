@@ -38,8 +38,8 @@ $(document).ready(function() {
     /*Services: Img-Switch bei Click auf Table-Einträge*/
   $(".services-description table tr").click(function(e){
       e.preventDefault();
-      alert(this.parent());
-      var element_index = this.index(this.parent());
+      alert(this.parent().index(this));
+      var element_index = this.parent().index(this);
       var element_to_hide = "."+this.className+".active";
       alert(element_index);
       var element_to_show = ".services-img."+this.className+":nth-child("+element.index+")";
