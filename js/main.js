@@ -39,6 +39,7 @@ $(document).ready(function() {
   $(".services-description table tr").click(function(e){
       e.preventDefault();
       var element_to_hide = ".services-img."+this.className+".active";
+      alert(element_to_hide);
       $(element_to_hide).removeClass("active");
       $(element_to_hide).hide(300);
       //alert(element_index);
