@@ -26,7 +26,16 @@ $(document).ready(function() {
           scrollTop:$("div[id="+href+"]").offset().top
       },'slow');
     
-      $("#mainmenu").hide();
+      //Nach dem Sprung soll das Menü geschlossen werden
+      if($('#trigger:visible').length != 0)
+      {
+        //mobile Ansicht => Komplettes Menü ausblenden
+        $("#mainmenu").hide();
+      } else {
+        //Normale Ansicht 0> nur Submenü ausblenden
+        $("#submenu-services").hide();
+      }
+      
   });
   
 });
