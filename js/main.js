@@ -40,13 +40,12 @@ $(document).ready(function() {
       e.preventDefault();
       alert("test");
       var tmp_class = $(this).parent().attr("class");
-      alert("test2");
-      alert($tmp_class);
-      alert("."+$tmp_class+".active");
-      alert(".services-img ."+$tmp_class);
-      $("."+$tmp_class+".active").hide(300);
+      alert(tmp_class);
+      alert("."+tmp_class+".active");
+      alert(".services-img ."+tmp_class);
+      $("."+tmp_class+".active").hide(300);
       
-      $(".services-img ."+$tmp_class).show(300);
+      $(".services-img ."+tmp_class).show(300);
   });
   
 });
