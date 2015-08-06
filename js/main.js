@@ -31,11 +31,11 @@ $(document).ready(function() {
       {
         //mobile Ansicht => Komplettes Menü ausblenden
         alert("1");
-        $("#mainmenu").hide();
+        $("#mainmenu").toggle();
       } else {
         //Normale Ansicht 0> nur Submenü ausblenden
         alert("2");
-        $("#submenu-services").hide();
+        $("#submenu-services").toggle();
       }
       
   });
