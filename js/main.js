@@ -31,7 +31,6 @@ $(document).ready(function() {
       {
         //mobile Ansicht => Komplettes Menü ausblenden
         $("#mainmenu").toggle(300);
-      } else {
       }
       
   });
