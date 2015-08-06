@@ -38,7 +38,7 @@ $(document).ready(function() {
     /*Services: Img-Switch bei Click auf Table-Einträge*/
   $(".services-description table tr").click(function(e){
       e.preventDefault();
-      alert(this.id);
+      alert(this.className);
       var tmp_class = $(this).parent().attr("class");
       alert(tmp_class);
       alert("."+tmp_class+".active");
