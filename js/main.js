@@ -26,7 +26,7 @@ $(document).ready(function() {
           scrollTop:$("div[id="+href+"]").offset().top
       },'slow');
     
-      //$('html,body').animate({ scrollTop: 500 }, 300);
+      $("#mainmenu").hide();
   });
   
 });
