@@ -40,10 +40,12 @@ $(document).ready(function() {
       e.preventDefault();
       var element_to_hide = "."+this.className+".active";
       var element_to_show = ".services-img."+this.className;
-      alert(element_to_hide);
-      alert(element_to_show);
-      $(element_to_hide).hide();
-      $(element_to_show).show();
+      //alert(element_to_hide);
+      //alert(element_to_show);
+      $(element_to_hide).removeClass("active");
+      $(element_to_hide).hide(300);
+      $(element_to_show).addClass("active");
+      $(element_to_show).show(300);
   });
   
 });
