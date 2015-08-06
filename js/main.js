@@ -38,10 +38,11 @@ $(document).ready(function() {
     /*Services: Img-Switch bei Click auf Table-Einträge*/
   $(".services-description table tr").click(function(e){
       e.preventDefault();
+      var element_index = this.index;
       var element_to_hide = "."+this.className+".active";
-      var element_to_show = ".services-img."+this.className;
-      //alert(element_to_hide);
-      //alert(element_to_show);
+      var element_to_show = ".services-img."+this.className+":nth-child("+element.index+")";
+      alert(element_to_hide);
+      alert(element_to_show);
       $(element_to_hide).removeClass("active");
       $(element_to_hide).hide(300);
       $(element_to_show).addClass("active");
