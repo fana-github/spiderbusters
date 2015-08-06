@@ -30,9 +30,11 @@ $(document).ready(function() {
       if($('#trigger:visible').length != 0)
       {
         //mobile Ansicht => Komplettes Menü ausblenden
+        alert("1");
         $("#mainmenu").hide();
       } else {
         //Normale Ansicht 0> nur Submenü ausblenden
+        alert("2");
         $("#submenu-services").hide();
       }
       
