@@ -35,4 +35,17 @@ $(document).ready(function() {
       
   });
   
+    /*Services: Img-Switch bei Click auf Table-Einträge*/
+  $(".services-description table tr").click(function(e){
+      alert("test");
+      e.preventDefault();
+      var tmp_class = $(this).attr("class");
+      alert($tmp_class);
+      alert("."+$tmp_class+".active");
+      alert(".services-img ."+$tmp_class);
+      $("."+$tmp_class+".active").hide(300);
+      
+      $(".services-img ."+$tmp_class).show(300);
+  });
+  
 });
