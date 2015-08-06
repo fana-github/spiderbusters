@@ -40,6 +40,7 @@ $(document).ready(function() {
       e.preventDefault();
       alert("test");
       var tmp_class = $(this).parent().attr("class");
+      alert("test2");
       alert($tmp_class);
       alert("."+$tmp_class+".active");
       alert(".services-img ."+$tmp_class);
