@@ -32,8 +32,6 @@ $(document).ready(function() {
         //mobile Ansicht => Komplettes Menü ausblenden
         $("#mainmenu").toggle(300);
       } else {
-        //Normale Ansicht 0> nur Submenü ausblenden
-        $("#submenu-services").toggle(300);
       }
       
   });
