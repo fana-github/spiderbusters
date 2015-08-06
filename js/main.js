@@ -40,6 +40,7 @@ $(document).ready(function() {
       e.preventDefault();
       var element_index = this.index;
       var element_to_hide = "."+this.className+".active";
+      alert(element_index);
       var element_to_show = ".services-img."+this.className+":nth-child("+element.index+")";
       alert(element_to_hide);
       alert(element_to_show);
