@@ -38,14 +38,12 @@ $(document).ready(function() {
     /*Services: Img-Switch bei Click auf Table-Einträge*/
   $(".services-description table tr").click(function(e){
       e.preventDefault();
-      alert(this.className);
-      var tmp_class = $(this).parent().attr("class");
-      alert(tmp_class);
-      alert("."+tmp_class+".active");
-      alert(".services-img ."+tmp_class);
-      $("."+tmp_class+".active").hide(300);
+
+      alert("."+this.className+".active");
+      alert(".services-img ."+this.className);
+      $("."+this.className+".active").hide(300);
       
-      $(".services-img ."+tmp_class).show(300);
+      $(".services-img ."+this.className).show(300);
   });
   
 });
