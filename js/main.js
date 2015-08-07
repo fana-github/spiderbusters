@@ -49,7 +49,7 @@ $(document).ready(function() {
         // Animation complete.
         //Show element by number of entry
         var entryindex = id.substring(idlength);
-        $(classname).siblings(classname).eq(entryindex).show(300).addClass("active");
+        $(classname).siblings(classname).eq(entryindex).fadeIn(2000).addClass("active");
   });
   
 });
