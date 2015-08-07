@@ -38,6 +38,7 @@ $(document).ready(function() {
     /*Services: Img-Switch bei Click auf Table-Einträge*/
   $(".services-description table tr").click(function(e){
       e.preventDefault();
+      alert("test");
       alert(this.siblings());
       this.siblings().css( "color", "yellow" );
       //var element_to_hide = ".services-img."+this.className+".active";
