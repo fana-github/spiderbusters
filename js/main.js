@@ -38,7 +38,9 @@ $(document).ready(function() {
     /*Services: Img-Switch bei Click auf Table-Einträge*/
   $(".services-description table tr").click(function(e){
       e.preventDefault();
-      alert("test");
+      var id = this.id;
+      var entryclass = id.substring(0,id.substr(id.length - 1);
+      alert("entryclass");
       alert($(this).siblings(".services-iphone4-entry"));
       $(this).siblings().css( "color", "yellow" );
       //var element_to_hide = ".services-img."+this.className+".active";
