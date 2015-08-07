@@ -39,10 +39,8 @@ $(document).ready(function() {
   $(".services-description table tr").click(function(e){
       e.preventDefault();
       var id = this.id;
-      alert(id.length);
-      alert(id.substring(0,5));
-      //var entryclass = id.substring(0,id.substring(id.length - 1);
-      //alert("entryclass");
+      var entryclass = id.substring(0,id.substring(id.length - 1));
+      alert("entryclass");
       //alert($(this).siblings(".services-iphone4-entry"));
       //$(this).siblings().css( "color", "yellow" );
       //var element_to_hide = ".services-img."+this.className+".active";
