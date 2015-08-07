@@ -40,25 +40,14 @@ $(document).ready(function() {
       e.preventDefault();
       var id = this.id;
       var idlength = id.length - 1;
-      //alert(idlength);
-      var entryclass = id.substring(0,idlength);
-      //alert(entryclass);
-      //alert($(this).siblings(".services-iphone4-entry"));
-      //$(this).siblings().css( "color", "yellow" );
-      //var element_to_hide = ".services-img."+entryclass+".active";
-      var element_to_hide = "."+entryclass;
-      //alert(element_to_hide);
-      //$(element_to_hide).removeClass("active");
-      $(element_to_hide).hide(300);
-      //---------------------------
+      //Only class name by cutting the element number
+      var tmp_name = id.substring(0,idlength);
+      var classname = "."+tmp_name;
+      //Hide element
+      $(classname).hide(300);
+      //Show element by number of entry
       var entryindex = id.substring(idlength);
-      //alert(entryindex);
-      $(element_to_hide).siblings(element_to_hide).eq(entryindex).show(300);
-      //var element_to_show = "."+entryclass+":nth-child("+entryindex+")";
-      //alert(element_to_show);
-
-      //$(element_to_show).addClass("active");
-      //$(element_to_show).show(300);
+      $(classname).siblings(classname).eq(entryindex).show(300);
   });
   
 });
