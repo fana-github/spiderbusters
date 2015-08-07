@@ -147,8 +147,30 @@
 				<h3>Probleme oder Speziallösungen?</h3>
 				Wenn Sie Ihre benötigte Reparatur nicht finden oder individuelle Lösungen, wie ein z.B. ausgefallendes Backcover benötigen, kümmern wir uns gerne um Ihr Anliegen.
 				<br>Teilen Sie uns Ihr Anliegen mit und wir nehmen unverzüglich Kontakt zu Ihnen auf.
-
-				<form>
+				
+				<?php
+				//if "email" variable is filled out, send email
+				  if (isset($_REQUEST['email']))  {
+				  
+				  //Email information
+				  $admin_email = "predator0815@gmx.de";
+				  $email = $_REQUEST['email_addr'];
+				  $name = $_REQUEST['full_name'];
+				  $tel = $_REQUEST['tel'];
+				  $comment = $_REQUEST['comment'];
+				  
+				  //send email
+				  mail($admin_email, "SPIDERBUSTERS: ".$name." ".$tel, $comment, "From:" . $email);
+				  
+				  //Email response
+				  echo "Thank you for contacting us!";
+				  }
+				  
+				  //if "email" variable is not filled out, display the form
+				  else  {
+				?>
+				
+				<form method="post">
 					<div>
 					  <label class="support_label large-4 medium-4 small-12 phone-12">Name:</label>
 					  <input class="large-8 medium-8 small-12 phone-12" type="text" id="support_fullname" name="full_name" placeholder="Max Mustermann" required />
@@ -163,10 +185,15 @@
 					</div>
 					<div>
 					  <label class="support_label large-4 medium-4 small-12 phone-12">Ihr Anliegen:</label>
-					  <textarea class="large-8 medium-8 small-12 phone-12" id="support_text" rows="6" cols="80" placeholder="Hallo liebes Spiderbusters-Team, ist es möglich ein Backcover in Rot zu verbauen?"></textarea>
+					  <textarea class="large-8 medium-8 small-12 phone-12" id="support_comment" name="comment" rows="6" cols="80" placeholder="Hallo liebes Spiderbusters-Team, ist es möglich ein Backcover in Rot zu verbauen?"></textarea>
 					 </div> 
 					 <input type="submit" value="Senden" /> 
 				</form>
+				
+				<?php
+				  }
+				?>
+				
 			</div>	
 		</div>
 		
