@@ -45,10 +45,12 @@ $(document).ready(function() {
       var classname = "."+tmp_name;
       //Hide element
       $(classname).removeClass("active");
-      $(classname).fadeOut(300);
-      //Show element by number of entry
-      var entryindex = id.substring(idlength);
-      $(classname).siblings(classname).eq(entryindex).fadeIn(300).addClass("active");
+      $(classname).fadeOut(500, function() {
+        // Animation complete.
+        //Show element by number of entry
+        var entryindex = id.substring(idlength);
+        $(classname).siblings(classname).eq(entryindex).fadeIn(500).addClass("active");
+      });
   });
   
 });
