@@ -44,10 +44,11 @@ $(document).ready(function() {
       var tmp_name = id.substring(0,idlength);
       var classname = "."+tmp_name;
       //Hide element
+      $(classname).removeClass("active")
       $(classname).hide(300);
       //Show element by number of entry
       var entryindex = id.substring(idlength);
-      $(classname).siblings(classname).eq(entryindex).show(300);
+      $(classname).siblings(classname).eq(entryindex).show(300).addClass("active");
   });
   
 });
