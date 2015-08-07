@@ -53,12 +53,12 @@ $(document).ready(function() {
       //---------------------------
       var entryindex = id.substring(idlength);
       alert(entryindex);
-      var element_to_show = $(element_to_hide).siblings(element_to_hide).eq(entryindex);
+      $(element_to_hide).siblings(element_to_hide).eq(entryindex).show(300);
       //var element_to_show = "."+entryclass+":nth-child("+entryindex+")";
-      alert(element_to_show);
+      //alert(element_to_show);
 
       //$(element_to_show).addClass("active");
-      $(element_to_show).show(300);
+      //$(element_to_show).show(300);
   });
   
 });
