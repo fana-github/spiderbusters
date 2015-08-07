@@ -57,7 +57,7 @@ $(document).ready(function() {
       alert(element_to_show);
 
       //$(element_to_show).addClass("active");
-      //$(element_to_show).show(300);
+      $(element_to_show).show(300);
   });
   
 });
