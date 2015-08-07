@@ -40,13 +40,13 @@ $(document).ready(function() {
       e.preventDefault();
       var id = this.id;
       var entryclass = id.substring(0,id.substring(id.length - 1));
-      alert("entryclass");
+      alert(entryclass);
       //alert($(this).siblings(".services-iphone4-entry"));
       //$(this).siblings().css( "color", "yellow" );
-      //var element_to_hide = ".services-img."+this.className+".active";
-      //alert(element_to_hide);
+      var element_to_hide = ".services-img."+entryclass+".active";
+      alert(element_to_hide);
       //$(element_to_hide).removeClass("active");
-      //$(element_to_hide).hide(300);
+      $(element_to_hide).hide(300);
       //alert(element_index);
       //var element_to_show = ".services-img."+this.className+":nth-child("+element.index+")";
       //alert(element_to_hide);
