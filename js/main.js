@@ -47,7 +47,7 @@ $(document).ready(function() {
       //$(this).siblings().css( "color", "yellow" );
       var element_to_hide = ".services-img."+entryclass+".active";
       alert(element_to_hide);
-      //$(element_to_hide).removeClass("active");
+      $(element_to_hide).removeClass("active");
       $(element_to_hide).hide(300);
       //alert(element_index);
       //var element_to_show = ".services-img."+this.className+":nth-child("+element.index+")";
