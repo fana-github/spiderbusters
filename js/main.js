@@ -44,7 +44,7 @@ $(document).ready(function() {
       var tmp_name = id.substring(0,idlength);
       var classname = "."+tmp_name;
       //Hide element
-      $(classname).removeClass("active")
+      $(classname).removeClass("active");
       $(classname).hide(300);
       //Show element by number of entry
       var entryindex = id.substring(idlength);
