@@ -45,12 +45,11 @@ $(document).ready(function() {
       var classname = "."+tmp_name;
       //Hide element
       $(classname).removeClass("active");
-      $(classname).fadeOut(500, function() {
+      //$(classname).hide(500);
         // Animation complete.
         //Show element by number of entry
         var entryindex = id.substring(idlength);
         $(classname).siblings(classname).eq(entryindex).fadeIn(500).addClass("active");
-      });
   });
   
 });
