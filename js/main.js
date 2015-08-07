@@ -39,7 +39,7 @@ $(document).ready(function() {
   $(".services-description table tr").click(function(e){
       e.preventDefault();
       var id = this.id;
-      alert(id);
+      alert(id.substring(1));
       //var entryclass = id.substring(0,id.substring(id.length - 1);
       //alert("entryclass");
       //alert($(this).siblings(".services-iphone4-entry"));
