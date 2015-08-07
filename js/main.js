@@ -53,7 +53,7 @@ $(document).ready(function() {
       //---------------------------
       var entryindex = id.substring(idlength);
       alert(entryindex);
-      $(element_to_hide).siblings(element_to_hide).eq(entryindex).show(300);
+      $(element_to_hide).siblings(element_to_hide).eq(1).show(300);
       //var element_to_show = "."+entryclass+":nth-child("+entryindex+")";
       //alert(element_to_show);
 
