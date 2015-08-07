@@ -48,12 +48,12 @@ $(document).ready(function() {
       //var element_to_hide = ".services-img."+entryclass+".active";
       var element_to_hide = "."+entryclass;
       //alert(element_to_hide);
-      $(element_to_hide).removeClass("active");
+      //$(element_to_hide).removeClass("active");
       $(element_to_hide).hide(300);
       //---------------------------
       var entryindex = id.substring(idlength);
-      alert(entryindex);
-      $(element_to_hide).siblings(element_to_hide).eq(1).show(300);
+      //alert(entryindex);
+      $(element_to_hide).siblings(element_to_hide).eq(entryindex).show(300);
       //var element_to_show = "."+entryclass+":nth-child("+entryindex+")";
       //alert(element_to_show);
 
