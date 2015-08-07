@@ -39,8 +39,8 @@ $(document).ready(function() {
   $(".services-description table tr").click(function(e){
       e.preventDefault();
       alert("test");
-      alert(this.siblings());
-      this.siblings().css( "color", "yellow" );
+      alert(this.siblings(".services-iphone4-entry"));
+      this.siblings(".services-iphone4-entry").css( "color", "yellow" );
       //var element_to_hide = ".services-img."+this.className+".active";
       //alert(element_to_hide);
       //$(element_to_hide).removeClass("active");
