@@ -233,13 +233,13 @@
 				<h2>Sie haben einen Wasserschaden?</h2>
 			</div>
 
-			<div class="large-4 medium-6 small-7 phone-12">
+			<div class="large-4 medium-4 small-7 phone-12">
 		  		Ein Wasserschaden kann diverse Teile in Mitleidenschaft gezogen haben.<br>
 		  		Melden Sie sich bei unser über das Kontaktformular oder per Telefon und wir bieten Ihnen indiviuelle Beratung & Reparaturangebote!<br>
 		  		<div class="services-choose-box services-choose-box-red"><a href="#support">...ich möchte schreiben!</a></div>
 		  		<div class="services-choose-box services-choose-box-red"><a href="#contact">...wie ist die Tel.Nummer?</a></div>
 			</div>
-			<div class="large-8 medium-6 small-5 phone-12">
+			<div class="large-8 medium-8 small-5 phone-12">
 		  		<img src="https://download.fotolia.com/Content/CompImage500/FotoliaComp_80031663_f07USOqLHbWGu0PAUOo9yi4TZ4VX6Iqc_W95" />
 			</div>
 		</div>
