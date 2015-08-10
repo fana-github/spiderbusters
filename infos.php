@@ -9,7 +9,7 @@
 	</head>
 	<body>
         <div id="logo-agb" class="row">
-      		<div class="large-2 medium-2 small-4 phone-4">
+      		<div class="large-3 medium-3 small-4 phone-4">
       		  <img src="http://konstruktionsbuero-werthner.de/spiderbusters/logo.png" />
       		</div>
     	</div>
