@@ -324,12 +324,12 @@
 				<a href="#home">Home</a><br>
 				<a href="#services">Leistungen</a><br>
 				<a href="#support">Support</a><br>
-				<a href="#contact">Kontakt</a><br>
+				<a href="#contact">Kontakt</a>
 			</div>
 			<div class="large-6">
 				<h3>Links</h3>
-				<a href="#">Impressum</a><br>
-				<a href="#">Geschäftsbedingungen</a><br>
+				<a href="infos.php#impressum" target="_blank">Impressum</a><br>
+				<a href="infos.php#agb" target="_blank">Geschäftsbedingungen</a>
 			</div>
 		</div>
 	</footer>
