@@ -340,7 +340,7 @@
 				// Wenn die Mail nicht versendet werden konnte:
 				else {
 				   // Seite "Fehler aufgetreten" senden:
-				   header('Location: '.URL.'yourpage.php?supportmailsent=false');
+				   header('Location: '.URL.'index.php?supportmailsent=false');
 				}
 				?>
 				
