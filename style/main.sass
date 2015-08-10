@@ -233,10 +233,10 @@ h3
 /*****************************************************/  
             
 @media #{$phone-small}
-    $nav-height: 80px
-    $subnav-height: 130px
+    $bar-height: 80px
     $nav-weight: 150px
     $subnav-weight: 170px
+    $subnav-height: 45px
 
     #logo
         display: inline
@@ -246,7 +246,7 @@ h3
         height: 60px
   
     .hero
-        margin-top: $nav-height
+        margin-top: $bar-height
 
     #trigger
         position: inline
@@ -261,7 +261,7 @@ h3
         /*position: absolute Für feste Navigation */
         top: 0
         left: 0
-        height: $nav-height
+        height: $bar-height
         width: 100%
     
         #bar
@@ -269,7 +269,7 @@ h3
             background: rgba(0, 0, 0, 0.8)
             max-width: $width-large - $gutter
             width: 100%
-            height: $nav-height
+            height: $bar-height
             margin: 0 auto
 
         a
@@ -307,7 +307,8 @@ h3
             position: absolute
             left: $nav-weight
             top: 0
-            height: $subnav-height
+            width: auto
+            height: auto
             line-height: 25px
             background: rgba(255,255,255,0.8)
 
@@ -316,7 +317,7 @@ h3
             display: inline-block
             text-align: center
             width: $subnav-weight
-            height: 45px
+            height: $subnav-height
             border-bottom: 1px solid rgba(51,51,51,0.8)
             
             &:last-of-type
