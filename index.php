@@ -52,7 +52,7 @@
 
 		<div class="row">
 			<div class="large-12 hero">
-		  		<img src="https://download.fotolia.com/Content/CompImage500/FotoliaComp_74421282_OkBoxuwPbPwzBiwpGj1WyHdUiFRnpsS4_W95">
+		  		<img src="http://konstruktionsbuero-werthner.de/spiderbusters/hero.jpg">
 			</div>	
 		</div>
 		
@@ -262,7 +262,7 @@
 		  		<div class="services-choose-box services-choose-box-red"><a href="#contact">...wie ist die Tel.Nummer?</a></div>
 			</div>
 			<div class="large-8 medium-8 small-5 phone-12">
-		  		<img src="https://download.fotolia.com/Content/CompImage500/FotoliaComp_80031663_f07USOqLHbWGu0PAUOo9yi4TZ4VX6Iqc_W95" />
+		  		<img src="http://konstruktionsbuero-werthner.de/spiderbusters/waterdamage.jpg" />
 			</div>
 		</div>
 		
@@ -273,7 +273,7 @@
 		</div>
 		<div class="row">
 			<div class="large-6 medium-6 small-0 phone-0">
-				<img src="https://download.fotolia.com/Content/CompImage500/FotoliaComp_78010088_qwgiNyj7mN2c0YhAhTg8lZNm8HJ5VEvB_W95" />
+				<img src="http://konstruktionsbuero-werthner.de/spiderbusters/support.jpg" />
 			</div>
 			<div class="large-6 medium-6 small-12 phone-12 supportrequest">
 				<h3>Probleme oder Speziallösungen?</h3>
