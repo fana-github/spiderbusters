@@ -313,16 +313,12 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="large-6 medium-6 small-8 phone-12">
-				<div class="vcard"> 
-					<div class="adr"> 
-						 <div class="street-address">Michael-Burgau-Strasse 13</div> 
-						 <div class="locality">Regensburg</div >  
-						 <div class="postal-code">D-93049</div > 
-						 <div class="country-name">Deutschland</div > 
-					</div> 
-					 <div class="tel">Tel: +49 1234 5678</div>
-				</div>
+			<div class="large-4 medium-4 small-12 phone-12">
+				Sie haben Fragen und bevorzugen den persönlich Kontakt?<br>
+				Rufen Sie doch einfach an oder schreiben uns via Whatsapp!
+			</div>
+			<div class="large-8 medium-8 small-12 phone-12">
+				<span class="tel">(+49) 160 94 86 89 27</span>
 			</div>
 		</div>
 	</body>
