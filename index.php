@@ -20,7 +20,7 @@
 							<li><a href="#services-iphone4"><img src="http://www.fillmurray.com/65/80" /><div>iPhone 4 / 4S</div></a></li>
 							<li><a href="#services-iphone5"><img src="http://www.fillmurray.com/65/80" /><div>iPhone 5 / 5C / 5S</div></a></li>
 							<li><a href="#services-iphone6"><img src="http://www.fillmurray.com/65/80" /><div>iPhone 6</div></a></li>
-							<li><a href="#services-iphone6+"><img src="http://www.fillmurray.com/65/80" /><div>iPhone 6Plus</div></a></li>
+							<li><a href="#services-iphone6plus"><img src="http://www.fillmurray.com/65/80" /><div>iPhone 6Plus</div></a></li>
 							<li><a href="#services-ipad"><img src="http://www.fillmurray.com/65/80" /><div>iPad</div></a></li>
 						</ul>
 					</li>
@@ -74,7 +74,7 @@
 		      </div>
 		      <div class="large-2 medium-2 small-6 phone-6">
 		        <div class="services-choose-box">
-		          <a href="#services-iphone6+">iPhone 6Plus</a>
+		          <a href="#services-iphone6plus">iPhone 6Plus</a>
 		        </div>
 		      </div>
 		      <div class="large-2 medium-2 small-6 phone-6">
@@ -184,7 +184,7 @@
 			</div>
 		</div>
 		
-		<div id="services-iphone6+" class="row services">
+		<div id="services-iphone6plus" class="row services">
 			<div class="large-12 medium-12 small-12 phone-12">
 				<h2>iPhone 6Plus</h2>
 			</div>
@@ -192,25 +192,25 @@
 			<div class="services-description large-4 medium-6 small-7 phone-12">
 		  		<h3>Leistungen & Preise</h3>
 				  <table>
-				    <tr id="services-iphone6+-entry0"><td>Display</td><td>79,-€</td></tr>
-				    <tr id="services-iphone6+-entry1"><td>Backcover</td><td>69,-€</td></tr>
-				    <tr id="services-iphone6+-entry2"><td>Akku</td><td>19,-€</td></tr>
-				    <tr id="services-iphone6+-entry3"><td>Kamera</td><td>39,-€</td></tr>
-				    <tr id="services-iphone6+-entry4"><td>Sleep-,Volume- oder Mute-Button</td><td>19,-€</td></tr>
-				    <tr id="services-iphone6+-entry5"><td>Kopfhöreranschluss</td><td>19,-€</td></tr>
-				    <tr id="services-iphone6+-entry6"><td>Ladekabelanschluss</td><td>19,-€</td></tr>
-				    <tr id="services-iphone6+-entry7"><td>Lautsprecher u. Mikrofon</td><td>19,-€</td></tr>
+				    <tr id="services-iphone6plus-entry0"><td>Display</td><td>79,-€</td></tr>
+				    <tr id="services-iphone6plus-entry1"><td>Backcover</td><td>69,-€</td></tr>
+				    <tr id="services-iphone6plus-entry2"><td>Akku</td><td>19,-€</td></tr>
+				    <tr id="services-iphone6plus-entry3"><td>Kamera</td><td>39,-€</td></tr>
+				    <tr id="services-iphone6plus-entry4"><td>Sleep-,Volume- oder Mute-Button</td><td>19,-€</td></tr>
+				    <tr id="services-iphone6plus-entry5"><td>Kopfhöreranschluss</td><td>19,-€</td></tr>
+				    <tr id="services-iphone6plus-entry6"><td>Ladekabelanschluss</td><td>19,-€</td></tr>
+				    <tr id="services-iphone6plus-entry7"><td>Lautsprecher u. Mikrofon</td><td>19,-€</td></tr>
 				  </table>
 			</div>
 			<div class="services-img large-8 medium-6 small-5 phone-12">
-		  		<img class="services-iphone6+-entry active" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone.png" />
-		  		<img class="services-iphone6+-entry" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone2.png" />
-		  		<img class="services-iphone6+-entry" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone3.png" />
-		  		<img class="services-iphone6+-entry" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone.png" />
-		  		<img class="services-iphone6+-entry" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone2.png" />
-		  		<img class="services-iphone6+-entry" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone3.png" />
-		  		<img class="services-iphone6+-entry" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone.png" />
-		  		<img class="services-iphone6+-entry" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone2.png" />
+		  		<img class="services-iphone6plus-entry active" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone.png" />
+		  		<img class="services-iphone6plus-entry" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone2.png" />
+		  		<img class="services-iphone6plus-entry" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone3.png" />
+		  		<img class="services-iphone6plus-entry" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone.png" />
+		  		<img class="services-iphone6plus-entry" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone2.png" />
+		  		<img class="services-iphone6plus-entry" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone3.png" />
+		  		<img class="services-iphone6plus-entry" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone.png" />
+		  		<img class="services-iphone6plus-entry" src="http://konstruktionsbuero-werthner.de/spiderbusters/iphone2.png" />
 			</div>
 		</div>
 		
