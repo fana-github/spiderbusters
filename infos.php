@@ -8,7 +8,7 @@
 		<script type="text/javascript" src="js/main.js"></script>
 	</head>
 	<body>
-        <div class="row">
+        <div id="logo-agb" class="row">
       		<div class="large-6 medium-6 small-8 phone-12">
       		  <img src="http://konstruktionsbuero-werthner.de/spiderbusters/logo.png" />
       		</div>
