@@ -97,7 +97,7 @@
 			</div>
 		</div>
 		
-		<div id="services-iphone4" class="row services">
+		<div id="services-iphone4" class="row services anchorlink">
 			<div class="large-12 medium-12 small-12 phone-12">
 				<h2>iPhone 4 / 4S</h2>
 			</div>
@@ -127,7 +127,7 @@
 			</div>
 		</div>
 		
-		<div id="services-iphone5" class="row services">
+		<div id="services-iphone5" class="row services anchorlink">
 			<div class="large-12 medium-12 small-12 phone-12">
 				<h2>iPhone 5 / 5C / 5S</h2>
 			</div>
@@ -157,7 +157,7 @@
 			</div>
 		</div>
 		
-		<div id="services-iphone6" class="row services">
+		<div id="services-iphone6" class="row services anchorlink">
 			<div class="large-12 medium-12 small-12 phone-12">
 				<h2>iPhone 6</h2>
 			</div>
@@ -187,7 +187,7 @@
 			</div>
 		</div>
 		
-		<div id="services-iphone6plus" class="row services">
+		<div id="services-iphone6plus" class="row services anchorlink">
 			<div class="large-12 medium-12 small-12 phone-12">
 				<h2>iPhone 6Plus</h2>
 			</div>
@@ -217,7 +217,7 @@
 			</div>
 		</div>
 		
-		<div id="services-ipad" class="row services">
+		<div id="services-ipad" class="row services anchorlink">
 			<div class="large-12 medium-12 small-12 phone-12">
 				<h2>iPad</h2>
 			</div>
@@ -233,7 +233,7 @@
 			</div>
 		</div>
 		
-		<div id="services-waterdamage" class="row services">
+		<div id="services-waterdamage" class="row services anchorlink">
 			<div class="large-12 medium-12 small-12 phone-12">
 				<h2>Sie haben einen Wasserschaden?</h2>
 			</div>
@@ -249,7 +249,7 @@
 			</div>
 		</div>
 		
-		<div id="support" class="row">
+		<div id="support" class="row anchorlink">
 			<div class="large-12 medium-12 small-12 phone-12">
 				<h1>Support</h1>
 			</div>
@@ -312,7 +312,7 @@
 			</div>	
 		</div>
 		
-		<div id="contact" class="row">
+		<div id="contact" class="row anchorlink">
 			<div class="large-12 medium-12 small-12 phone-12">
 				<h1>Kontakt</h1>
 			</div>
