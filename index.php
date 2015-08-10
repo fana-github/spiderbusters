@@ -16,7 +16,7 @@
 			<ul id="mainmenu">
 				<div>
 					<li><a href="#home">Home</a></li>
-					<li id="mainmenu-services"><a href="#">Services</a><ul id="submenu-services">
+					<li id="mainmenu-services"><a href="#">Leistungen</a><ul id="submenu-services">
 							<li><a href="#services-iphone4"><img src="http://www.fillmurray.com/65/80" /><div>iPhone 4 / 4S</div></a></li>
 							<li><a href="#services-iphone5"><img src="http://www.fillmurray.com/65/80" /><div>iPhone 5 / 5C / 5S</div></a></li>
 							<li><a href="#services-iphone6"><img src="http://www.fillmurray.com/65/80" /><div>iPhone 6</div></a></li>
@@ -26,11 +26,13 @@
 						</ul>
 					</li>
 					<li><a href="#support">Support</a></li>
-					<li><a href="#contact">Location</a></li>
+					<li><a href="#contact">Kontakt</a></li>
 				</div>
 			</ul>
 		</nav>
-	
+
+		<div id="home"></div>		
+
 		<div class="row">
 			<div class="large-12 hero">
 		  		<img src="https://download.fotolia.com/Content/CompImage500/FotoliaComp_86035533_3Pn8kOWi69sk5IOd4GC4aFbVDsTuLslF_W95">
