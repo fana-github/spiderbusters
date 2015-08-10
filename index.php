@@ -219,10 +219,10 @@
 				<h2>iPad</h2>
 			</div>
 
-			<div class="services-description large-4 medium-6 small-7 phone-12">
+			<div class="large-4 medium-6 small-7 phone-12">
 		  		tbd
 			</div>
-			<div class="services-img large-8 medium-6 small-5 phone-12">
+			<div class="large-8 medium-6 small-5 phone-12">
 		  		<img src="https://download.fotolia.com/Content/CompImage500/FotoliaComp_47421636_I7E2e37bFN7TElUWLcwkHnSoDIlFUCtd_W95" />
 			</div>
 		</div>
