@@ -326,10 +326,6 @@
 				   header("Location: " . $returnErrorPage);
 				}
 				 
-				// ======= Ende
-				 
-				exit();
-				 
 				?>
 				
 				<form method="post">
