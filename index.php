@@ -313,8 +313,16 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="large-12 medium-12 small-12 phone-12">
-				tbd
+			<div class="large-6 medium-6 small-8 phone-12">
+				<div class="vcard"> 
+					<div class="adr"> 
+						 <div class="street-address">Michael-Burgau-Strasse 13</div> 
+						 <div class="locality">Regensburg</div >  
+						 <div class="postal-code">D-93049</div > 
+						 <div class="country-name">Deutschland</div > 
+					</div> 
+					 <div class="tel">Tel: +49 1234 5678</div>
+				</div>
 			</div>
 		</div>
 	</body>
