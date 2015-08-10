@@ -52,7 +52,7 @@
 
 		<div class="row">
 			<div class="large-12 hero">
-		  		<img src="https://download.fotolia.com/Content/CompImage500/FotoliaComp_74421296_1ZYIDO8vWbJNMbWRTnbgRHUEKvhVdyNV_W95">
+		  		<img src="https://download.fotolia.com/Content/CompImage500/FotoliaComp_74440313_5jZl4bmDRpYqF15XtnRPMz6Xwp0CsWfn_W95">
 			</div>	
 		</div>
 		
