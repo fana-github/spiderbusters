@@ -313,11 +313,11 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="large-4 medium-4 small-12 phone-12">
+			<div class="large-5 medium-5 small-12 phone-12">
 				Sie haben Fragen und bevorzugen den persönlich Kontakt?<br>
 				Rufen Sie doch einfach an oder schreiben uns via Whatsapp!
 			</div>
-			<div class="large-8 medium-8 small-12 phone-12">
+			<div class="large-7 medium-7 small-12 phone-12">
 				<span class="tel">(+49) 160 94 86 89 27</span>
 			</div>
 		</div>
