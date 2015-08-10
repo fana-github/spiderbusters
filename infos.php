@@ -10,7 +10,7 @@
 	<body>
         <div class="row">
       		<div class="large-6 medium-6 small-8 phone-12">
-      		  <img id="logo" src="http://konstruktionsbuero-werthner.de/spiderbusters/logo.png" />
+      		  <img src="http://konstruktionsbuero-werthner.de/spiderbusters/logo.png" />
       		</div>
     	</div>
     		
