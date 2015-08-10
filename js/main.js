@@ -23,7 +23,7 @@ $(document).ready(function() {
       e.preventDefault();
       var href = $(this).attr('href').substring(1);
       $('html, body').animate({
-          scrollTop:$("div[id="+href+"]").offset().top+80px
+          scrollTop:$("div[id="+href+"]").offset().top
       },'slow');
     
       //Nach dem Sprung soll das Menü geschlossen werden
