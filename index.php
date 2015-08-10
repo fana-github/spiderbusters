@@ -324,7 +324,7 @@
 				<a href="#home">Home</a><br>
 				<a href="#services">Leistungen</a><br>
 				<a href="#support">Support</a><br>
-				<a href="#contact">Kontakt</a>
+				<a href="#contact">Kontakt</a><br>
 			</div>
 			<div class="large-6">
 				<h3>Links</h3>
