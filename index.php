@@ -22,10 +22,11 @@
 							<li><a href="#services-iphone6"><img src="http://www.fillmurray.com/65/80" /><div>iPhone 6</div></a></li>
 							<li><a href="#services-iphone6plus"><img src="http://www.fillmurray.com/65/80" /><div>iPhone 6Plus</div></a></li>
 							<li><a href="#services-ipad"><img src="http://www.fillmurray.com/65/80" /><div>iPad</div></a></li>
+							<li><a href="#services-waterdamage"><img src="http://www.fillmurray.com/65/80" /><div>Wasserschaden?</div></a></li>
 						</ul>
 					</li>
 					<li><a href="#support">Support</a></li>
-					<li><a href="#location">Location</a></li>
+					<li><a href="#contact">Location</a></li>
 				</div>
 			</ul>
 		</nav>
@@ -43,7 +44,7 @@
 		      </div>
 		      <div class="large-4 medium-4 small-12 phone-12">
 		        <h3>Hier sofort starten</h3>
-		        <div class="services-choose-box services-choose-box-start">
+		        <div class="services-choose-box services-choose-box-red">
 		           Gerät auswählen
 		        </div>
 		      </div>
@@ -219,11 +220,27 @@
 				<h2>iPad</h2>
 			</div>
 
+			<div class="large-8 medium-6 small-5 phone-12">
+		  		<img src="https://download.fotolia.com/Content/CompImage500/FotoliaComp_47421636_I7E2e37bFN7TElUWLcwkHnSoDIlFUCtd_W95" />
+			</div>
 			<div class="large-4 medium-6 small-7 phone-12">
 		  		tbd
 			</div>
+		</div>
+		
+		<div id="services-waterdamage" class="row services">
+			<div class="large-12 medium-12 small-12 phone-12">
+				<h2>Sie haben einen Wasserschaden?</h2>
+			</div>
+
+			<div class="large-4 medium-6 small-7 phone-12">
+		  		Ein Wasserschaden kann diverse Teile in Mitleidenschaft gezogen haben.<br>
+		  		Melden Sie sich bei unser über das Kontaktformular oder per Telefon und wir bieten Ihnen indiviuelle Beratung & Reparaturangebote!<br>
+		  		<div class="services-choose-box-red"><a href="#support">...ich möchte schreiben!</a></div>
+		  		<div class="services-choose-box-red"><a href="#contact">...wie ist die Tel.Nummer?</a></div>
+			</div>
 			<div class="large-8 medium-6 small-5 phone-12">
-		  		<img src="https://download.fotolia.com/Content/CompImage500/FotoliaComp_47421636_I7E2e37bFN7TElUWLcwkHnSoDIlFUCtd_W95" />
+		  		<img src="https://download.fotolia.com/Content/CompImage500/FotoliaComp_80031663_f07USOqLHbWGu0PAUOo9yi4TZ4VX6Iqc_W95" />
 			</div>
 		</div>
 		
@@ -290,12 +307,12 @@
 			</div>	
 		</div>
 		
-		<div id="support" class="row">
+		<div id="contact" class="row">
 			<div class="large-12 medium-12 small-12 phone-12">
-				<h1>Location</h1>
+				<h1>Contact</h1>
 			</div>
 		</div>
-		<div id="location" class="row">
+		<div class="row">
 			<div class="large-12 medium-12 small-12 phone-12">
 				tbd
 			</div>
