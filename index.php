@@ -314,7 +314,7 @@
 		
 		<div id="contact" class="row">
 			<div class="large-12 medium-12 small-12 phone-12">
-				<h1>Contact</h1>
+				<h1>Kontakt</h1>
 			</div>
 		</div>
 		<div class="row">
