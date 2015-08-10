@@ -224,7 +224,10 @@
 		  		<img src="https://download.fotolia.com/Content/CompImage500/FotoliaComp_47421636_I7E2e37bFN7TElUWLcwkHnSoDIlFUCtd_W95" />
 			</div>
 			<div class="large-4 medium-6 small-7 phone-12">
-		  		tbd
+		  		Individuelle Angebote bzgl. iPad Reparatur erhalten Sie via Mail/Telefon.<br>
+		  		Schnelle & geradlinige Lösungen sind unser Anspruch an Sie!<br>
+		  		<div class="services-choose-box services-choose-box-red"><a href="#support">...via Mail</a></div>
+		  		<div class="services-choose-box services-choose-box-red"><a href="#contact">...ich möchte anrufen!</a></div>
 			</div>
 		</div>
 		
