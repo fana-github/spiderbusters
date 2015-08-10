@@ -56,7 +56,7 @@
 			</div>	
 		</div>
 		
-		<div class="row services-choose">
+		<div id="services" class="row services-choose">
 		      <div class="large-4 medium-4 small-12 phone-12">
 		         <h2>Ihr Gerät ist defekt?</h2>
 		         SPIDERBUSTERS bietet Ihnen schnellen sowie unkomplizierten Service bei iPhone & iPad Reparaturen aller Art. Zu fairen Preisen!
@@ -320,20 +320,16 @@
 	<footer>
 		<div class="row">
 			<div class="large-6">
-				<h3>Just</h3>
-				<a href="#">Lorem ipsum dolor sit amet.</a><br>
-				<a href="#">Ab quod aperiam, eos voluptatibus.</a><br>
-				<a href="#">Voluptatibus sint provident deserunt nesciunt!</a><br>
-				<a href="#">Repellat laboriosam ea, incidunt facilis!</a><br>
-				<a href="#">Id quaerat eaque, soluta vel.</a><br>
+				<h3>Navigation</h3>
+				<a href="#home">Home</a><br>
+				<a href="#services">Leistungen</a><br>
+				<a href="#support">Support</a><br>
+				<a href="#contact">Kontakt</a>
 			</div>
 			<div class="large-6">
-				<h3>blub</h3>
-				<a href="#">Eligendi sed eius accusantium aut.</a><br>
-				<a href="#">Placeat repellendus, molestias recusandae debitis?</a><br>
-				<a href="#">Architecto debitis, aut laudantium iure.</a><br>
-				<a href="#">Consequatur quam sed molestiae necessitatibus!</a><br>
-				<a href="#">Dolorem eaque quae, numquam iste?</a><br>
+				<h3>Links</h3>
+				<a href="#">Impressum</a><br>
+				<a href="#">Geschäftsbedingungen</a><br>
 			</div>
 		</div>
 	</footer>
