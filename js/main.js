@@ -35,7 +35,14 @@ $(document).ready(function() {
       
   });
   
-    /*Services: Img-Switch bei Click auf Table-Einträge*/
+  /*Servuces-Choose: Zur Schnellauswahl der Geräte*/
+  $(".services-choose-box-start").click(function(e){
+      e.preventDefault();
+      $(".services-choose-box-models").toggle(300);
+      return false;
+  });
+  
+  /*Services: Img-Switch bei Click auf Table-Einträge*/
   $(".services-description table tr").click(function(e){
       e.preventDefault();
       var id = this.id;
