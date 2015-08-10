@@ -44,7 +44,7 @@
 		      </div>
 		      <div class="large-4 medium-4 small-12 phone-12">
 		        <h3>Hier sofort starten</h3>
-		        <div class="services-choose-box services-choose-box-red">
+		        <div class="services-choose-box services-choose-box-start">
 		           Gerät auswählen
 		        </div>
 		      </div>
