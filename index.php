@@ -38,13 +38,13 @@
 			if($_GET["supportmailsent"] === "true")
 			{
 		?>
-				<div class="large-12 medium-12 small-12 phone-12 mailinfo">Mail versendet</div>	
+				<div class="mailinfo"><span>Mail versendet</span></div>	
 		<?php
 			}
 			if($_GET["supportmailsent"] === "false")
 			{
 		?>
-				<div class="large-12 medium-12 small-12 phone-12 mailinfo">Mailversand nicht erfolgreich</div>
+				<div class="mailinfo"><span>Mailversand nicht erfolgreich</span></div>
 		<?php
 			}
 		?>
