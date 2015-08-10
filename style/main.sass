@@ -161,7 +161,7 @@ h3
             left: 0
             top: $nav-height
             height: $subnav-height
-            background: rgba(60,60,60,0.6)
+            background: rgba(255,255,255,0.8)
 
 
         > ul ul li
@@ -171,6 +171,7 @@ h3
             width: 200px
             height: $subnav-height
             padding: 0px
+
             
             &:hover
                 background-color: rgba(255,0,0,1)
@@ -179,7 +180,7 @@ h3
                     color: #fff
 
             a
-                color: #fff
+                color: #333
                 display: inline-block
                 font-size: 12px
                 padding: 0px
@@ -274,17 +275,21 @@ h3
             top: 0
             height: $subnav-height
             line-height: 25px
-            background: rgba(60,60,60,0.6)
+            background: rgba(255,255,255,0.8)
 
 
         > ul ul li
             display: inline-block
             text-align: center
             height: 45px
+            border-bottom: 1px solid #666
+            
+            &:last-of-type
+                border-bottom: none
 
             a
                 display: block
-                color: #fff
+                color: #666
                 font-size: 12px
             
             img
