@@ -33,6 +33,54 @@
 		  		<img src="https://download.fotolia.com/Content/CompImage500/FotoliaComp_86035533_3Pn8kOWi69sk5IOd4GC4aFbVDsTuLslF_W95">
 			</div>	
 		</div>
+		
+		<div class="row services-choose">
+		      <div class="large-4 medium-4 small-12 phone-12">
+		         <h2>Ihr Gerät ist defekt?</h2>
+		         SPIDERBUSTERS bietet Ihnen schnellen sowie unkomplizierten Service bei iPhone & iPad Reparaturen aller Art. Zu fairen Preisen!
+		      </div>
+		      <div class="large-4 medium-4 small-12 phone-12">
+		        <h3>Hier sofort starten</h3>
+		        <div class="services-choose-box services-choose-box-start">
+		           Gerät auswählen
+		        </div>
+		      </div>
+		      <div class="large-4 medium-4 small-12 phone-12"> 
+		      </div>
+		</div>
+		
+		<div class="row services-choose-box-models">
+		      <div class="large-2 medium-2 small-6 phone-6">
+		        <div class="services-choose-box">
+		          <a href="#services-iphone4">iPhone 4/4S</a>
+		        </div>
+		      </div>
+		      <div class="large-2 medium-2 small-6 phone-6">
+		        <div class="services-choose-box">
+		          <a href="#services-iphone5">iPhone 5/5C</a>
+		        </div>
+		      </div>
+		      <div class="large-2 medium-2 small-6 phone-6">
+		        <div class="services-choose-box">
+		          <a href="#services-iphone5">iPhone 5S</a>
+		        </div>
+		      </div>
+		      <div class="large-2 medium-2 small-6 phone-6">
+		        <div class="services-choose-box">
+		          <a href="#services-iphone6">iPhone 6</a>
+		        </div>
+		      </div>
+		      <div class="large-2 medium-2 small-6 phone-6">
+		        <div class="services-choose-box">
+		          <a href="#services-iphone6+">iPhone 6Plus</a>
+		        </div>
+		      </div>
+		      <div class="large-2 medium-2 small-6 phone-6">
+		        <div class="services-choose-box">
+		          <a href="#services-ipad">iPad</a>
+		        </div>
+		      </div>
+		</div>
 
 		<div class="row">
 			<div class="large-12 medium-12 small-12 phone-12">
