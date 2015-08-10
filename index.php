@@ -342,13 +342,8 @@
 				   // Seite "Fehler aufgetreten" senden:
 				   header('Location: '.URL.'yourpage.php?supportmailsent=false');
 				}
-				 
-				if(isset($_GET["id"]) && $_GET["supportmailsent"] == "true")
-				{
-					//TODO
-				}
-				else {
 				?>
+				
 				<form method="post">
 					<div>
 					  <label class="support_label large-4 medium-4 small-12 phone-12">Name:</label>
@@ -368,9 +363,6 @@
 					 </div> 
 					 <input type="submit" value="Senden" /> 
 				</form>
-				<?php
-				}
-				?>
 			</div>	
 		</div>
 		
