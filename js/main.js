@@ -30,7 +30,10 @@ $(document).ready(function() {
       if($('#trigger:visible').length != 0)
       {
         //mobile Ansicht => Komplettes Menü ausblenden
-        $("#mainmenu").toggle(300);
+        if($('#mainmenu:visible').length != 0)
+        {
+          $("#mainmenu").toggle(300);
+        }
       }
       
   });
