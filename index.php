@@ -31,7 +31,24 @@
 			</ul>
 		</nav>
 
-		<div id="home"></div>		
+		<div id="home"></div>
+		
+		<div class="row">
+		<?php
+			if($_GET["supportmailsent"] === "true")
+			{
+		?>
+				<div class="large-12 medium-12 small-12 phone-12 mailinfo">Mail versendet</div>	
+		<?php
+			}
+			if($_GET["supportmailsent"] === "false")
+			{
+		?>
+				<div class="large-12 medium-12 small-12 phone-12 mailinfo">Mailversand nicht erfolgreich</div>
+		<?php
+			}
+		?>
+		</div>
 
 		<div class="row">
 			<div class="large-12 hero">
@@ -264,14 +281,14 @@
 				<br>Teilen Sie uns Ihr Anliegen mit und wir nehmen unverzüglich Kontakt zu Ihnen auf.
 				
 				<?php
+				
+				define('URL', 'http://www.alexander-psiuk.de/fana/');
  
 				// ======= Konfiguration:
 				 
 				$mailTo = 'predator0815@gmx.de';
 				$mailFrom = '"Spiderbusters" <info@spiderbusters.de>';
 				$mailSubject    = 'Support Request SPIDERBUSTERS';
-				$returnPage = 'http://server/Formular-verarbeitet.html';
-				$returnErrorPage = 'http://server/Fehler-aufgetreten.html';
 				$mailText = "";
 				 
 				// ======= Text der Mail aus den Formularfeldern erstellen:
@@ -318,16 +335,20 @@
 				// Wenn der Mailversand erfolgreich war:
 				if($mailSent == TRUE) {
 				   // Seite "Formular verarbeitet" senden:
-				   header("Location: " . $returnPage);
+				   header('Location: '.URL.'index.php?supportmailsent=true');
 				}
 				// Wenn die Mail nicht versendet werden konnte:
 				else {
 				   // Seite "Fehler aufgetreten" senden:
-				   header("Location: " . $returnErrorPage);
+				   header('Location: '.URL.'yourpage.php?supportmailsent=false');
 				}
 				 
+				if(isset($_GET["id"]) && $_GET["supportmailsent"] == "true")
+				{
+					//TODO
+				}
+				else {
 				?>
-				
 				<form method="post">
 					<div>
 					  <label class="support_label large-4 medium-4 small-12 phone-12">Name:</label>
@@ -347,7 +368,9 @@
 					 </div> 
 					 <input type="submit" value="Senden" /> 
 				</form>
-				
+				<?php
+				}
+				?>
 			</div>	
 		</div>
 		
