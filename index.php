@@ -52,6 +52,8 @@
 
 		<div class="row">
 			<div class="large-12 hero">
+				<h1>Ein <3 für iPhones</h1>
+    				<p>Hochwertige & schnelle Reparaturen sind unser Anspruch!</p>
 		  		<img src="http://konstruktionsbuero-werthner.de/spiderbusters/hero.jpg">
 			</div>	
 		</div>
