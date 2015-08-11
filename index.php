@@ -54,7 +54,7 @@
 			<div class="large-12 hero">
 				<div id="hero-textbox">
 					<h1>Probleme mit Ihrem iPhone?</h1>
-    					<p>Haben Sie ein defektes Display?<br> Ist ihr Akku am Ende seiner Kräfte?<b> Oder wollen Sie einfach nur ein neues Backcover?<br>
+    					<p>Haben Sie ein defektes Display?<br> Ist ihr Akku am Ende seiner Kräfte?<br> Oder wollen Sie einfach nur ein neues Backcover?<br>
     					<br>Hier ist Ihr Direkteinstieg...
     					</p>
     				</div>
