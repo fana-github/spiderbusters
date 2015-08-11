@@ -93,8 +93,8 @@ h3
     font-size: 2.8em
 
     position: absolute
-    top: 236px
-    left: 38px
+    top: -12px
+    left: 12px
     right: 0
     bottom: 0
     z-index: 1
@@ -103,8 +103,8 @@ h3
     color: #333
     font-size: 1.3em
     position: absolute 
-    top: 305px
-    left: 38px
+    top: 60px
+    left: 12px
     right: 0
     bottom: 0
     display: block
@@ -114,24 +114,33 @@ h3
     z-index: 1
     
 #hero-textbox
+    position: absolute;
     display: block
-    width: auto
-    height: auto
-    background-color: rgba(255,255,255,0.6)
+    top: 240px
+    left: 40px
+    width: 600px
+    height: 240px
+    background-color: rgba(255, 255, 255, 0.35);
 
 /* Unter 1200px (ohne weißen Rand) wird die Schrift automatisch kleiner */
 @media all and (max-width: $width-large - 1px) 
     .hero h1
         font-size: 3.75vw
-        top: 19.8vw
-        left: 3.1vw
+        top: -1.0vw
+        left: 1.0vw
 
     .hero p
         font-size: 1.70vw
-        top: 25.6vw
-        left: 3.1vw
+        top: 5.2vw
+        left: 1.0vw
         width: 47vw
         height: 2.7vw
+        
+    #hero-textbox
+        width: 50vw;
+        height: 20vw;
+        top: 20vw;
+        left: 3.5vw;
         
 @media #{$phone}
     .hero h1
