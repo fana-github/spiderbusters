@@ -89,6 +89,7 @@ h3
 
 /* Normaler Zustand (größer 1200px): Schrift immer gleich groß
 .hero h1
+    color: #111
     font-size: 2.8em
     margin: auto
     position: absolute
@@ -99,6 +100,7 @@ h3
     z-index: 1
 
 .hero p
+    color: #111
     font-size: 1.3em
     margin: auto
     position: absolute 
@@ -106,22 +108,23 @@ h3
     left: 40px
     right: 0
     bottom: 0
+    display: block
+    border-bottom: 1px solid rgba(0,0,0,0.3)
     z-index: 1
 
 /* Unter 1200px (ohne weißen Rand) wird die Schrift automatisch kleiner
-@media all and (max-width: 1200px) 
-    .hero
-        height: 50vw
-  
+@media all and (max-width: 1199px) 
     .hero h1
         font-size: 3.75vw
-        top: 22.0vw
-        left: 3vw
+        top: 24.3vw
+        left: 2.65vw
 
     .hero p
         font-size: 1.70vw
-        top: 26.9vw
-        left: 3vw
+        top: -4.2vw
+        left: -46vw
+        width: 47vw
+        height: 2.7vw
 
 /*****************************************************/  
 /* Services-Choose zur Schnellauswahl der Geräte    
