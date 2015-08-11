@@ -114,7 +114,7 @@ h3
     z-index: 1
 
 /* Unter 1200px (ohne weißen Rand) wird die Schrift automatisch kleiner */
-@media all and (max-width: 1199px) 
+@media all and (max-width: $width-large - 1px) 
     .hero h1
         font-size: 3.75vw
         top: 19.8vw
@@ -126,6 +126,13 @@ h3
         left: 3.1vw
         width: 47vw
         height: 2.7vw
+        
+@media #{$phone}
+    .hero h1
+        display: none
+        
+    .hero p
+        display: none
 
 /*****************************************************/  
 /* Services-Choose zur Schnellauswahl der Geräte    
