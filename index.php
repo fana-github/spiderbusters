@@ -53,8 +53,10 @@
 		<div class="row">
 			<div class="large-12 hero">
 				<div id="hero-textbox">
-					<h1>Display defekt?</h1>
-    					<p>Kein Problem! Hier erhalten Sie die nötige Hilfe...</p>
+					<h1>Probleme mit Ihrem iPhone?</h1>
+    					<p>Haben Sie ein defektes Display?<br> Ist ihr Akku am Ende seiner Kräfte?<b> Oder wollen Sie einfach nur ein neues Backcover?<br>
+    					<br>Hier ist Ihr Direkteinstieg...
+    					</p>
     				</div>
 		  		<img src="http://konstruktionsbuero-werthner.de/spiderbusters/hero.jpg">
 			</div>	
