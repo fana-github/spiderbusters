@@ -123,6 +123,15 @@ h3
     left: 40px
     width: 600px
     height: 240px
+    
+    .teaser-button
+        display: block
+        text-align: center
+        padding: 10px
+        margin: 10px
+        background-color: rgba(255,0,0,1)
+        font-weight: normal
+        border: none
 
 /* Unter 1200px (ohne weißen Rand) wird die Schrift automatisch kleiner */
 @media all and (max-width: $width-large - 1px) 
@@ -145,11 +154,9 @@ h3
         top: 20vw
         left: 3.5vw
         
-@media #{$phone}
-    .hero h1
-        display: none
         
-    .hero p
+@media #{$phone}
+    #hero-textbox
         display: none
 
 /*****************************************************/  
