@@ -16,10 +16,10 @@
     		
       	<div id="impressum" class="row">
       	    <div class="large-12 medium-12 small-12 phone-12">
-      	        <h2>Impressum</h2>
+      	        <h1>Impressum</h1>
       	    </div>
       	    <div class="large-12 medium-12 small-12 phone-12">
-      	        <div class='impressum'><h1>Impressum</h1><p>Angaben gemäß § 5 TMG</p><p>Sergej Zurba <br> 
+      	        <div class='impressum'><p>Angaben gemäß § 5 TMG</p><p>Sergej Zurba <br> 
 			Michael-Burgau-Str. 13<br> 
 			93049 Regensburg <br> 
 			</p><p> <strong>Vertreten durch: </strong><br>
@@ -45,7 +45,7 @@
       	
       	<div id="agb" class="row">
       	    <div class="large-12 medium-12 small-12 phone-12">
-      	        <h2>Geschäftsbedingungen</h2>
+      	        <h1>Geschäftsbedingungen</h1>
       	    </div>
       	    <div class="large-12 medium-12 small-12 phone-12">
       	        tbd
