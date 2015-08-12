@@ -334,7 +334,7 @@
 				<a href="infos.php#agb" target="_blank">AGB</a>
 			</div>
 		</div>
-		<div class="copyright row">
+		<div class="row">
 			<div class="copyright large-12 medium-12 small-12 phone-12">
 				Copyright © Sergej Zurba
 			</div>
