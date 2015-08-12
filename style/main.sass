@@ -125,13 +125,19 @@ h3
     height: 240px
     
     .teaser-button
+        position: absolute
+        top: 280px
+        left: 108px
         display: block
         text-align: center
         padding: 10px
         margin: 10px
         background-color: rgba(255,0,0,1)
-        font-weight: normal
         border: none
+        width: 230px
+        height: 58px
+        font-weight: 600
+        font-size: 1.5em
 
 /* Unter 1200px (ohne weißen Rand) wird die Schrift automatisch kleiner */
 @media all and (max-width: $width-large - 1px) 
@@ -153,6 +159,13 @@ h3
         height: 20vw
         top: 20vw
         left: 3.5vw
+        
+    .teaser-button
+        top: 280px
+        left: 108px
+        padding: 10px
+        margin: 10px
+        font-size: 1.5em
         
         
 @media #{$phone}
