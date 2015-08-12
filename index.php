@@ -336,7 +336,7 @@
 		</div>
 		<div class="copyright row">
 			<div class="copyright large-12 medium-12 small-12 phone-12">
-				<span>Copyright © Sergej Zurba</span>
+				Copyright © Sergej Zurba
 			</div>
 		</div>
 	</footer>
