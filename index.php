@@ -22,7 +22,7 @@
 							<li><a href="#services-iphone6"><img src="http://konstruktionsbuero-werthner.de/spiderbusters/subnav/iphone6.png" /><div>iPhone 6</div></a></li>
 							<li><a href="#services-iphone6plus"><img src="http://konstruktionsbuero-werthner.de/spiderbusters/subnav/iphone6plus.png" /><div>iPhone 6Plus</div></a></li>
 							<li><a href="#services-ipad"><img src="http://konstruktionsbuero-werthner.de/spiderbusters/subnav/ipad.png" /><div>iPad</div></a></li>
-							<li><a href="#services-waterdamage"><img src="http://www.fillmurray.com/65/80" /><div>Wasserschaden?</div></a></li>
+							<li><a href="#services-waterdamage"><img src="https://d30y9cdsu7xlg0.cloudfront.net/png/47270-200.png" /><div>Wasserschaden?</div></a></li>
 						</ul>
 					</li>
 					<li><a href="#support">Support</a></li>
