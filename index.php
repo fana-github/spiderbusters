@@ -55,7 +55,7 @@
 				<div id="hero-textbox">
 					<h1>Sie haben ein <strong>Problem</strong> mit ihrem Apple-Gerät?</h1>
     					<p>iPhone.iPad.iPod.</p>
-    					<div class="teaser-button"><a href="#services">Gerät wählen</a></div>
+    					<div class="teaser-button"><a href="#services">...Und los!</a></div>
     				</div>
 		  		<img src="http://konstruktionsbuero-werthner.de/spiderbusters/hero.jpg">
 			</div>	
