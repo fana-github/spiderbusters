@@ -17,7 +17,7 @@
 				<div>
 					<li><a href="#home">Home</a></li>
 					<li id="mainmenu-services"><a href="#">Leistungen</a><ul id="submenu-services">
-							<li><a href="#services-iphone4"><img src="http://www.fillmurray.com/65/80" /><div>iPhone 4 / 4S</div></a></li>
+							<li><a href="#services-iphone4"><img src="http://konstruktionsbuero-werthner.de/spiderbusters/subnav/iphone4.png" /><div>iPhone 4 / 4S</div></a></li>
 							<li><a href="#services-iphone5"><img src="http://www.fillmurray.com/65/80" /><div>iPhone 5 / 5C / 5S</div></a></li>
 							<li><a href="#services-iphone6"><img src="http://www.fillmurray.com/65/80" /><div>iPhone 6</div></a></li>
 							<li><a href="#services-iphone6plus"><img src="http://www.fillmurray.com/65/80" /><div>iPhone 6Plus</div></a></li>
