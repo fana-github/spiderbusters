@@ -321,17 +321,22 @@
 	</body>
 	<footer>
 		<div class="row">
-			<div class="large-6">
+			<div class="large-6 medium-6 small-6 phone-6">
 				<h3>Navigation</h3>
 				<a href="#home">Home</a><br>
 				<a href="#services">Leistungen</a><br>
 				<a href="#support">Support</a><br>
 				<a href="#contact">Kontakt</a>
 			</div>
-			<div class="large-6">
+			<div class="large-6 medium-6 small-6 phone-6">
 				<h3>Links</h3>
 				<a href="infos.php" target="_blank">Impressum</a><br>
 				<a href="infos.php#agb" target="_blank">Geschäftsbedingungen</a>
+			</div>
+		</div>
+		<div class="copyright row">
+			<div class="copyright large-12 medium-12 small-12 phone-12">
+				Copyright © Sergej Zurba
 			</div>
 		</div>
 	</footer>
