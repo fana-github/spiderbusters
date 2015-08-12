@@ -249,7 +249,7 @@
 			</div>
 			<div class="large-4 medium-4 small-6 phone-12">
 		  		Individuelle Angebote bzgl. iPad Reparatur erhalten Sie via Mail/Telefon.<br>
-		  		Schnelle & geradlinige Lösungen sind unser Anspruch an Sie!<br>
+		  		Schnelle & geradlinige Lösungen sind unser Anspruch!<br>
 		  		<div class="services-choose-box services-choose-box-red"><a href="#support">...via Mail</a></div>
 		  		<div class="services-choose-box services-choose-box-red"><a href="#contact">...ich möchte anrufen!</a></div>
 			</div>
