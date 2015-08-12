@@ -331,12 +331,12 @@
 			<div class="large-6 medium-6 small-6 phone-6">
 				<h3>Links</h3>
 				<a href="infos.php" target="_blank">Impressum</a><br>
-				<a href="infos.php#agb" target="_blank">Geschäftsbedingungen</a>
+				<a href="infos.php#agb" target="_blank">AGB</a>
 			</div>
 		</div>
 		<div class="copyright row">
 			<div class="copyright large-12 medium-12 small-12 phone-12">
-				Copyright © Sergej Zurba
+				<span>Copyright © Sergej Zurba</span>
 			</div>
 		</div>
 	</footer>
