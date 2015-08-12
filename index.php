@@ -333,7 +333,7 @@
 			</div>
 			<div class="large-6">
 				<h3>Links</h3>
-				<a href="infos.php#impressum" target="_blank">Impressum</a><br>
+				<a href="infos.php" target="_blank">Impressum</a><br>
 				<a href="infos.php#agb" target="_blank">Geschäftsbedingungen</a>
 			</div>
 		</div>
