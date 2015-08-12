@@ -256,11 +256,8 @@
 		</div>
 		
 		<div id="services-waterdamage" class="row services anchorlink">
-			<div class="large-12 medium-12 small-12 phone-12">
-				<h2>Sie haben einen Wasserschaden?</h2>
-			</div>
-
 			<div class="large-4 medium-4 small-7 phone-12">
+				<h2>Sie haben einen Wasserschaden?</h2>
 		  		Ein Wasserschaden kann diverse Teile in Mitleidenschaft gezogen haben.<br>
 		  		Melden Sie sich bei unser über das Kontaktformular oder per Telefon und wir bieten Ihnen indiviuelle Beratung & Reparaturangebote!<br>
 		  		<div class="services-choose-box services-choose-box-red"><a href="#support">...ich möchte schreiben!</a></div>
