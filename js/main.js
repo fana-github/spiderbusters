@@ -53,13 +53,19 @@ $(document).ready(function() {
       //Only class name by cutting the element number
       var tmp_name = id.substring(0,idlength);
       var classname = "."+tmp_name;
-      //Hide element
+      
+      //Remove "Active Element" marker in table view
+      $(this).siblings().removeClass("active");
+      //Hide currently shown image
       $(classname).removeClass("active");
       $(classname).hide();
-        // Animation complete.
-        //Show element by number of entry
-        var entryindex = id.substring(idlength);
-        $(classname).siblings(classname).eq(entryindex).fadeIn(1000).addClass("active");
+    
+      // Animation complete.
+      //Highlight clickey entry in table view (-> new "Active Element")
+      $(this).addClass("active");
+      //Show image of clicked entry in the table view (by id number: -> e.g. 0 in 'services-iphone4-entry0')
+      var entryindex = id.substring(idlength);
+      $(classname).siblings(classname).eq(entryindex).fadeIn(1000).addClass("active");
   });
   
 });
