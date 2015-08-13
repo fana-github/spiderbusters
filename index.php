@@ -127,7 +127,7 @@
 			<div class="services-description large-4 medium-6 small-7 phone-12">
 		  		<h3>Leistungen & Preise</h3>
 				  <table>
-				    <tr id="services-iphone4-entry0"><td>Display</td><td>79,-€</td></tr>
+				    <tr id="services-iphone4-entry0" class="active"><td>Display</td><td>79,-€</td></tr>
 				    <tr id="services-iphone4-entry1"><td>Backcover</td><td>69,-€</td></tr>
 				    <tr id="services-iphone4-entry2"><td>Akku</td><td>19,-€</td></tr>
 				    <tr id="services-iphone4-entry3"><td>Kamera</td><td>39,-€</td></tr>
@@ -157,7 +157,7 @@
 			<div class="services-description large-4 medium-6 small-7 phone-12">
 		  		<h3>Leistungen & Preise</h3>
 				  <table>
-				    <tr id="services-iphone5-entry0"><td>Display</td><td>79,-€</td></tr>
+				    <tr id="services-iphone5-entry0" class="active"><td>Display</td><td>79,-€</td></tr>
 				    <tr id="services-iphone5-entry1"><td>Backcover</td><td>69,-€</td></tr>
 				    <tr id="services-iphone5-entry2"><td>Akku</td><td>19,-€</td></tr>
 				    <tr id="services-iphone5-entry3"><td>Kamera</td><td>39,-€</td></tr>
@@ -187,7 +187,7 @@
 			<div class="services-description large-4 medium-6 small-7 phone-12">
 		  		<h3>Leistungen & Preise</h3>
 				  <table>
-				    <tr id="services-iphone6-entry0"><td>Display</td><td>79,-€</td></tr>
+				    <tr id="services-iphone6-entry0" class="active"><td>Display</td><td>79,-€</td></tr>
 				    <tr id="services-iphone6-entry1"><td>Backcover</td><td>69,-€</td></tr>
 				    <tr id="services-iphone6-entry2"><td>Akku</td><td>19,-€</td></tr>
 				    <tr id="services-iphone6-entry3"><td>Kamera</td><td>39,-€</td></tr>
@@ -217,7 +217,7 @@
 			<div class="services-description large-4 medium-6 small-7 phone-12">
 		  		<h3>Leistungen & Preise</h3>
 				  <table>
-				    <tr id="services-iphone6plus-entry0"><td>Display</td><td>79,-€</td></tr>
+				    <tr id="services-iphone6plus-entry0" class="active"><td>Display</td><td>79,-€</td></tr>
 				    <tr id="services-iphone6plus-entry1"><td>Backcover</td><td>69,-€</td></tr>
 				    <tr id="services-iphone6plus-entry2"><td>Akku</td><td>19,-€</td></tr>
 				    <tr id="services-iphone6plus-entry3"><td>Kamera</td><td>39,-€</td></tr>
